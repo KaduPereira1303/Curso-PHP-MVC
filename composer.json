@@ -1,0 +1,26 @@
+{
+    "name": "carlinhos/cursoudemy",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "kadu.kadu1303@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "core\\":"core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    }
+}
+
+
+
+
